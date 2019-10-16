@@ -1,0 +1,41 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: century gothic;
+}
+header{
+	background-image: url(https://www.automationnth.com/wp-content/uploads/2017/07/cybersecurity.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+ul{
+	float: right;
+	margin-top: 30px;
+	left:50%;
+}
+ul li{
+	display: inline-block;
+}
+ul li a{
+	text-decoration:none;
+	color: #fff;
+	padding: 5px 20px;
+	border: 1px solid #fff;
+	transition: 0.3s ease;
+}
+ul li a:hover{
+	background-color: #fff;
+	color: #000;
+}
+.title{
+	position: absolute;
+	top:15%;
+	left:45%;
+}
+.title h1{
+	color: #fff;
+	font-size:50px;
+	border: 1px solid #fff;
+}
+	
